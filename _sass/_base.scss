@@ -103,7 +103,13 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        // text-decoration: underline;
+        // background-color: #AD310B;
+        -webkit-transition: color 300ms linear;
+        -moz-transition: color 300ms linear;
+        -o-transition: color 300ms linear;
+        -ms-transition: color 300ms linear;
+        transition: color 300ms linear;
     }
 }
 
@@ -133,13 +139,14 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid #20457c;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #20457c;
 }
 
 code {
     padding: 1px 5px;
+
 }
 
 pre {
@@ -150,6 +157,7 @@ pre {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+
     }
 }
 
@@ -204,6 +212,7 @@ pre {
 
         path {
             fill: $grey-color;
+
         }
     }
 }
