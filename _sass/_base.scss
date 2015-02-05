@@ -223,9 +223,9 @@ pre {
  * mentats
  * Background images
  */
-.bckim {background:transparent url(/assets/abt_trn_lo.png) no-repeat center center;
-    background-size: -webkit-calc(#{$content-width} - (#{$spacing-unit} / * 6));
-    background-size: calc(#{$content-width} - (#{$spacing-unit} * 6));
+.bckim {background:transparent url(/assets/abt_trn_lo.png) no-repeat center top;
+    background-size: 65%;
+    background-size: 65%;
 
     margin-right: auto;
     margin-left: auto;
@@ -235,8 +235,9 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    background-size: 65%;
+    background-size: 65%;
+
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
