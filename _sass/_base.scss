@@ -224,14 +224,13 @@ pre {
  * Background images
  */
 .bckim {background:transparent url(/assets/abt_trn_lo.png) no-repeat center top;
-    background-size: 65%;
-    background-size: 65%;
-
+    background-size: contain;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    padding-top: 500px;
+    padding-top: 50%;
+    padding-bottom: auto;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
