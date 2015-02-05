@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 0px solid $grey-color-dark;
+    border-bottom: 0px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -15,13 +15,24 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    float: center;
     text-decoration: none;
     color: $brand-color;
 
     &,
     &:visited {
         color: $brand-color;
+    }
+
+        &:hover {
+        color: $text-color;
+        // text-decoration: underline;
+        // background-color: #AD310B;
+        -webkit-transition: color 60ms;
+        -moz-transition: color 60ms;
+        -o-transition: color 60ms;
+        -ms-transition: color 60ms;
+        transition: color 60ms;
     }
 }
 
@@ -41,6 +52,17 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
+
+            &:hover {
+        color: $text-color;
+        // text-decoration: underline;
+        // background-color: #AD310B;
+        -webkit-transition: color 60ms;
+        -moz-transition: color 60ms;
+        -o-transition: color 60ms;
+        -ms-transition: color 60ms;
+        transition: color 60ms;
+    }
     }
 
     @include media-query($on-palm) {
@@ -94,8 +116,10 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    border-top: 0px solid $grey-color-light;
+    padding: $spacing-unit * 0;
+    color: $grey-color;
+    font-size: 14px;
 }
 
 .footer-heading {
@@ -186,10 +210,9 @@
 }
 
 .post-link {
-    display: block;
+    // display: block;
     font-size: 24px;
 }
-
 
 
 /**

@@ -2,13 +2,13 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+p, blockquote, pre,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
 
-
+hr {border: 0.5px dashed $brand-color; height: 0; width: 40%; margin-left: auto; margin-right: auto; margin-bottom: $spacing-unit; margin-top: $spacing-unit;}
 
 /**
  * Basic styling
@@ -215,4 +215,5 @@ pre {
 
         }
     }
+
 }

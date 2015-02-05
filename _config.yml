@@ -3,7 +3,7 @@ title: mentats.github.io
 email:
 description: > # this means to ignore newlines until "baseurl:"
   ITSM admin. Remedy code, tips&tricks, weird bugs and SQL snippets.
-  Electric bass, beer, #!, Jekyll and bad grammar.
+  Electric bass, beer, #!, Jekyll and bad grammar. Don't check my CSS if you don't want to have a stroke.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mentats.github.io" # the base hostname & protocol for your site
 twitter_username: jmfragadv
