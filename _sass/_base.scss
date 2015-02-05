@@ -98,18 +98,18 @@ a {
     // }
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color;
     }
 
     &:hover {
         color: $text-color;
         // text-decoration: underline;
         // background-color: #AD310B;
-        -webkit-transition: color 75ms linear;
-        -moz-transition: color 75ms linear;
-        -o-transition: color 75ms linear;
-        -ms-transition: color 75ms linear;
-        transition: color 75ms linear;
+        -webkit-transition: color 60ms;
+        -moz-transition: color 60ms;
+        -o-transition: color 60ms;
+        -ms-transition: color 60ms;
+        transition: color 60ms;
     }
 }
 
@@ -139,7 +139,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid #d63e40;
+    border: 1px dashed #d63e40;
     border-radius: 3px;
     background-color: #323136;
 }
@@ -211,7 +211,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $brand-color;
 
         }
     }
