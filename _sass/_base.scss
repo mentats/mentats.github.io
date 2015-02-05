@@ -139,9 +139,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px dashed #d63e40;
+    border: 1px dotted #d63e40;
     border-radius: 3px;
-    background-color: #323136;
+    background-color: #262529;
 }
 
 code {
@@ -217,3 +217,34 @@ pre {
     }
 
 }
+
+
+/**
+ * mentats
+ * Background images
+ */
+.bckim {background:transparent url(/assets/abt_trn_lo.png) no-repeat center center;
+
+
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    padding-top: 500px;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+
+
+
+
+
+}
+

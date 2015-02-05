@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "This is just a test"
-bit:    "Some more testing. I want to see how does the index display when several posts are rendered"
-date:   2015-02-06 20:13:07
+bit:    "Some more testing. I want to see how does the index display when several posts are rendered."
+date:   2015-02-06 21:46:07
 categories: general
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
