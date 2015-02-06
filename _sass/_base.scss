@@ -154,9 +154,13 @@ pre {
     overflow-x: scroll;
 
     > code {
+        display: block;
+        font-size: $base-font-size * 0.7;
+        line-height: 1.5;
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        font-family: Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
 
     }
 }
