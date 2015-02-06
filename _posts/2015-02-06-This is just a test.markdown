@@ -12,7 +12,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 {% highlight SQL %}
-//This statement should retrieve data from an incident
+-- This statement should retrieve data from an incident
 SELECT h.Incident_Number, h.Categorization_Tier_1
 FROM HPD_Help_Desk h
 WHERE h.Incident_Number = 'INC000000000001'
