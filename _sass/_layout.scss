@@ -39,7 +39,6 @@
 .site-nav {
     float: right;
     line-height: 56px;
-
     .menu-icon {
         display: none;
     }
@@ -47,6 +46,10 @@
     .page-link {
         color: $brand-color;
         line-height: $base-line-height;
+
+        &:last-child {
+            padding-right: 5px;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -80,7 +83,7 @@
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 10px;
+            padding-top: 15px;
             text-align: center;
 
             > svg {
@@ -106,6 +109,10 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            &:last-child {
+               padding-right: 10px;
+            }
+
         }
     }
 }
