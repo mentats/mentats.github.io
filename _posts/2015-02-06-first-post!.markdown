@@ -16,5 +16,5 @@ I guess that’s it for now. Have a great sunday!
 
 [jkl]: http://jekyllrb.com
 [gth]: https://github.com/mentats/mentats.github.io
-[pyg]:    http://pygments.org
+[pyg]: http://pygments.org
 [ttr]: https://twitter.com/jmfragadv
