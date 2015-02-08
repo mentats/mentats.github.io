@@ -63,7 +63,7 @@ BEGIN
    DECLARE @oneDay INT = 86400
 
    /* Each of the three following SELECT statements contains a case that sets the value
-   for the first three variables defined at the beginning of the funciton. The second SELECT
+   for the first three variables defined at the beginning of the funciton. The last SELECT
    statement provides formatting based on @format input parameter, as follows:
    - "W" input will return "WW Weeks, DD days, HH:MM:SS"
    - "D" input will return "DD days, HH:MM:SS" 
