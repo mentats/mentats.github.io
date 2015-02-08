@@ -4,8 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Juanma and I'm a Remedy / ITSM admin from Madrid.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+- [Twitter @jmfragadv](https://twitter.com/jmfragadv)
+
+- [GitHub @mentats](https://github.com/mentats)
+
+- [LinkedIn](es.linkedin.com/in/jmfragadv) 
+
+- [BMC Communities](https://communities.bmc.com/people/jmfraga%40indra.es?view=profile)
