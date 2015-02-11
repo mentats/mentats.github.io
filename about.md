@@ -11,6 +11,6 @@ My name is Juanma and I'm a Remedy / ITSM admin from Madrid.
 
 - [GitHub @mentats](https://github.com/mentats)
 
-- [LinkedIn](es.linkedin.com/in/jmfragadv) 
+- [LinkedIn](https://www.linkedin.com/in/jmfragadv) 
 
 - [BMC Communities](https://communities.bmc.com/people/jmfraga%40indra.es?view=profile)
